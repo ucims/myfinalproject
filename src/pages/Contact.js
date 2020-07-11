@@ -24,7 +24,7 @@ function Contact() {
         return(
             <div className="App">
                 <header className="App-header">                
-                    
+                    {/* Ini adalah form untuk mengisis pesan yang akan ditamapilkana dalam bentuk list  */}
                     Kirimkan pesan <br />
                     <form onSubmit={_handlePesan}>
                         <table>
@@ -43,6 +43,7 @@ function Contact() {
                         </table>
                     </form>
                 <div>
+                    {/* ini adalah list pesan yang sudah diinputkan */}
                     <ol> 
                         {pesan.map((item, index) => <li className="ul-pesan" key={index}>{item}</li> )}
                     </ol>

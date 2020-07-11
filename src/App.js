@@ -9,6 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
+          {/* Berikut adalah menu dari web yang dibuat */}
           <ul>
             <li><Link to="/">Beranda</Link></li>
             <li><Link to="/contact">Kontak</Link></li>
