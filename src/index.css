@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: rgb(223, 223, 215);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: rgb(235, 235, 127);
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+.page {
+  color: yellow;
+  background-color: #282c34;
+  min-height: 100vm;
+}
+
+.social-media {
+  display: inline-flex;
+}
+
+.social-media a {
+  color: white;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+table {
+  width: 800px;
+  text-align: left;
+  /* border: #dfe0e2 solid 1px; */
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  width: 50px;
+}
+
+.btn-pesan {
+  background-color: rgb(235, 235, 127);
+  border:rgb(235, 235, 127) solid 1px ;
+  color: #282c34;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  transition-duration: 0.4s;
+}
+
+.btn-pesan:hover {
+  color: rgb(235, 235, 127);
+  background-color: #282c34;
+}
+
+input {
+  border: 2px solid #dfe0e2;
+  border-radius: 4px;
+  height: 30px;
+  width: 80%;
+}
+
+.ul-pesan {
+  display: list-item;
+}
